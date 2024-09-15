@@ -30,7 +30,7 @@ public class MathUtil {
         if (n <= 1) {
             return false; // 0 và 1 không phải là số nguyên tố
         }
-        for (int i = 2; i < Math.sqrt(n); i++) {
+        for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
             }

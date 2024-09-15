@@ -18,6 +18,6 @@ public class Main {
      */
     public static void main(String[] args) {
         System.out.println("More over, this message coms from a US-build");
-        System.out.println("test 2");
+        System.out.println("test 3");
     }
 }

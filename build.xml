@@ -11,19 +11,6 @@
     <description>Builds, tests, and runs the project math-util.</description>
     <import file="nbproject/build-impl.xml"/>
 
-    <target name="test" depends="compile">
-        <junit printsummary="yes" haltonfailure="yes">
-            <classpath>
-                <pathelement location="${build.classes.dir}"/>
-                <pathelement path="${java.class.path}"/>
-            </classpath>
-            <formatter type="plain"/>
-            <batchtest fork="yes">
-                <fileset dir="${test.src.dir}" includes="**/*Test.java"/>
-            </batchtest>
-        </junit>
-    </target>
-
     <target name="jar" depends="test">
     <jar destfile="dist/math-util.jar" basedir="${build.classes.dir}"/>
 </target>

@@ -9,6 +9,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -18,6 +19,11 @@ import org.junit.runners.Parameterized;
  */
 @RunWith(value = Parameterized.class)
 public class PrimeDDTTest {
+    
+    @Before
+    public void setup(){
+        System.out.println("Test with DDT Prime");
+    }
     
      @Parameterized.Parameters
     public static Collection<Object[]> initData() {

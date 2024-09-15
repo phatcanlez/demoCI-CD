@@ -8,6 +8,7 @@ package com.giaolang.mathutil.core;
 import junit.framework.Assert;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Before;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -30,6 +31,11 @@ import org.junit.runners.Parameterized;
 //map 
 @RunWith(value = Parameterized.class)
 public class MathUtilDDTTest {
+    
+    @Before
+    public void setup(){
+        System.out.println("Test with DDT factorial");
+    }
     
     @Parameterized.Parameters
     public static Object[][] initData() {

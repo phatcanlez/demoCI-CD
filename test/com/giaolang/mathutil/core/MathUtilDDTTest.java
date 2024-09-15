@@ -46,5 +46,6 @@ public class MathUtilDDTTest {
     @Test
     public void testFactorial(){
         assertEquals(expected, MathUtil.getFactorial(n));
+        System.out.println("Expect: " + expected + " actual: " + MathUtil.getFactorial(n));
     }
 }

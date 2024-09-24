@@ -15,7 +15,7 @@ public class MathUtil {
     public static final double PI = 3.14159;
 
     public static long getFactorial(int n) {
-//        ko tính số âm, ko tính 21! trở lên
+
         if (n < 0) {
             throw new IllegalArgumentException("invalid value");
         }
@@ -28,7 +28,7 @@ public class MathUtil {
 
     public static boolean checkPrime(int n) {
         if (n <= 1) {
-            return false; // 0 và 1 không phải là số nguyên tố
+            return false; 
         }
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
@@ -38,9 +38,4 @@ public class MathUtil {
         return true;
     }
 
-    //TDD: Test driven development: là kĩ thuật lập trình/ áp dụng cho dân dev để
-    //gia tăng chất lượng code, ý thức là driven
-    //TDD yêu cầu khi viết code viết hàm phải viết lun các bộ kiểm thử test casse
-    //sau khi có đc tên hàm (chỉ tên hàm mà thôi, ta viết lun các tình huống xài hàm
-    //DDT: 
 }

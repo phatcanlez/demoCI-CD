@@ -52,9 +52,14 @@ public class MathUtilTest {
         long expected = 1;
         long actual = MathUtil.getFactorial(0);
         
-        Assert.assertEquals(expected, actual);
-        
-        
+        Assert.assertEquals(1, MathUtil.getFactorial(0));
+        Assert.assertEquals(1, MathUtil.getFactorial(1));
+        Assert.assertEquals(2, MathUtil.getFactorial(2));
+        Assert.assertEquals(6, MathUtil.getFactorial(3));
+        Assert.assertEquals(24, MathUtil.getFactorial(4));
+        Assert.assertEquals(120, MathUtil.getFactorial(5));
+        Assert.assertEquals(72, MathUtil.getFactorial(6));
+
         //Test case #2: n = 0, hy vọng hàm trả về 1
     }
 }

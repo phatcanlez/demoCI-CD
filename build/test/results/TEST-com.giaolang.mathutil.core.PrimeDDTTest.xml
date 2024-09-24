@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="LAPTOP-CGNHB79E" name="com.giaolang.mathutil.core.MathUtilDDTTest" skipped="0" tests="7" time="0.039" timestamp="2024-09-24T14:17:27">
+<testsuite errors="0" failures="0" hostname="LAPTOP-CGNHB79E" name="com.giaolang.mathutil.core.PrimeDDTTest" skipped="0" tests="12" time="0.033" timestamp="2024-09-24T14:17:28">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -55,7 +55,7 @@
     <property name="copylibs.rebase" value="true" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.giaolang.mathutil.core.MathUtilDDTTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\phat\CI-CD\demoCI-CD\build\test\results\TEST-com.giaolang.mathutil.core.MathUtilDDTTest.xml crashfile=D:\phat\CI-CD\demoCI-CD\build\junitvmwatcher2910374549562980536.properties propsfile=D:\phat\CI-CD\demoCI-CD\build\junit5075900140889474497.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.giaolang.mathutil.core.PrimeDDTTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\phat\CI-CD\demoCI-CD\build\test\results\TEST-com.giaolang.mathutil.core.PrimeDDTTest.xml crashfile=D:\phat\CI-CD\demoCI-CD\build\junitvmwatcher8548186308311420486.properties propsfile=D:\phat\CI-CD\demoCI-CD\build\junit4593702635495802806.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -403,27 +403,42 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[0]" time="0.001" />
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[1]" time="0.0" />
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[2]" time="0.0" />
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[3]" time="0.0" />
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[4]" time="0.0" />
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[5]" time="0.0" />
-  <testcase classname="com.giaolang.mathutil.core.MathUtilDDTTest" name="testFactorial[6]" time="0.001" />
-  <system-out><![CDATA[Test with DDT factorial
-Expect: 1 actual: 1
-Test with DDT factorial
-Expect: 1 actual: 1
-Test with DDT factorial
-Expect: 2 actual: 2
-Test with DDT factorial
-Expect: 6 actual: 6
-Test with DDT factorial
-Expect: 24 actual: 24
-Test with DDT factorial
-Expect: 120 actual: 120
-Test with DDT factorial
-Expect: 720 actual: 720
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[0]" time="0.001" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[1]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[2]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[3]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[4]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[5]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[6]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[7]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[8]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[9]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[10]" time="0.0" />
+  <testcase classname="com.giaolang.mathutil.core.PrimeDDTTest" name="testCheckPrime[11]" time="0.0" />
+  <system-out><![CDATA[Test with DDT Prime
+false act: 0
+Test with DDT Prime
+false act: 1
+Test with DDT Prime
+true act: 2
+Test with DDT Prime
+true act: 3
+Test with DDT Prime
+false act: 4
+Test with DDT Prime
+true act: 5
+Test with DDT Prime
+false act: 9
+Test with DDT Prime
+true act: 11
+Test with DDT Prime
+false act: 15
+Test with DDT Prime
+true act: 17
+Test with DDT Prime
+true act: 29
+Test with DDT Prime
+false act: 100
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

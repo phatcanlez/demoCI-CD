@@ -58,7 +58,7 @@ public class MathUtilTest {
         Assert.assertEquals(6, MathUtil.getFactorial(3));
         Assert.assertEquals(24, MathUtil.getFactorial(4));
         Assert.assertEquals(120, MathUtil.getFactorial(5));
-        Assert.assertEquals(72, MathUtil.getFactorial(6));
+        Assert.assertEquals(720, MathUtil.getFactorial(6));
 
         //Test case #2: n = 0, hy vọng hàm trả về 1
     }
